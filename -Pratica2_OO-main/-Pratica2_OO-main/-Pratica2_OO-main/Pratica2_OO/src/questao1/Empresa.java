@@ -13,6 +13,10 @@ public class Empresa {
 		e1.darBaixaEstoque(10);
 		System.out.println(e1.mostra());
 		
+		Estoque e2 = new Estoque("Lapiseira", 50,10);
+		System.out.println(e2.mostra());
+		e2.darBaixaEstoque(30);
+		System.out.println(e2.mostra());
 
 	}
 
