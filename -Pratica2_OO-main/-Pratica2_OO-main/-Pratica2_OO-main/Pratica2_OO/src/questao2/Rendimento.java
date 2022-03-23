@@ -1,5 +1,5 @@
 package questao2;
-
+import java.util.Scanner;
 public class Rendimento {
 	private long rendimento;
 	private long InvestimentoInicial;
